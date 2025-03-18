@@ -1,0 +1,37 @@
+# 🔎 Support Vector Machine (SVM) Classifier
+
+## 📌 Objective  
+Classify mushrooms as **edible or poisonous** using a **Support Vector Machine (SVM)** classifier.
+
+## 📊 Dataset  
+- **Dataset:** Mushroom Dataset  
+- **Features:**  
+   - Cap Shape  
+   - Cap Color  
+   - Gill Size  
+   - Gill Color  
+   - Stalk Shape  
+   - Odor  
+   - Habitat  
+
+## 🧠 Techniques Used  
+- **Data Preprocessing:**  
+   - Encoded categorical variables  
+   - Split data into training and testing sets  
+
+- **Support Vector Machine (SVM):**  
+   - Trained model using different kernel types (Linear, Polynomial, RBF)  
+   - Evaluated model performance using **accuracy, precision, recall, and F1-score**  
+
+- **Hyperparameter Tuning:**  
+   - Optimized SVM parameters to improve classification results  
+
+## 🔍 Analysis and Interpretation  
+- **Best Performing Kernel:** Identified the most suitable SVM kernel for the dataset  
+- **Feature Importance:** Analyzed which features contributed most to classification  
+
+## 🚀 Results  
+- **Accuracy:** Achieved high classification performance  
+- **Insights:**  
+   - Certain mushroom features were strong indicators of edibility  
+   - Proper preprocessing improved model accuracy  
