@@ -1,0 +1,37 @@
+# ✈️ Airline Customer Segmentation using Clustering
+
+## 📌 Objective  
+Segment airline customers into distinct groups based on their behavior using clustering techniques:  
+- **K-Means**  
+- **Hierarchical Clustering**  
+- **DBSCAN**  
+
+## 📊 Dataset  
+- **Dataset:** EastWest Airlines  
+- **Features:**  
+   - Customer ID  
+   - Flight Miles  
+   - Flight Frequency  
+   - Loyalty Points  
+
+## 🧠 Techniques Used  
+- **Data Preprocessing:**  
+   - Handled missing values  
+   - Removed outliers  
+   - Scaled features using standardization  
+
+- **Clustering Algorithms:**  
+   - K-Means: Used Elbow Curve to determine the optimal number of clusters  
+   - Hierarchical: Experimented with different linkage criteria  
+   - DBSCAN: Tuned epsilon and minPts to detect meaningful clusters  
+
+## 🔍 Analysis and Interpretation  
+- Identified clear customer segments based on travel behavior  
+- Provided insights for targeted marketing and personalized customer service  
+- Noted differences between cluster sizes and customer loyalty patterns  
+
+## 🚀 Results  
+- **Silhouette Score:** High score for K-Means and DBSCAN indicating well-defined clusters  
+- **Actionable Strategies:**  
+   - Develop loyalty programs for high-value customers  
+   - Adjust marketing strategies for different customer segments  
