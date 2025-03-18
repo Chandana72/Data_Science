@@ -1,0 +1,39 @@
+# 📈 Exchange Rate Forecasting using Time Series Analysis
+
+## 📌 Objective  
+Forecast future exchange rates using **ARIMA** and **Exponential Smoothing** based on historical data.
+
+## 📊 Dataset  
+- **Dataset:** Exchange Rate Dataset  
+- **File:** `exchange_rate.csv`  
+- **Features:**  
+   - Date  
+   - Exchange rate 
+
+## 🧠 Techniques Used  
+- **Data Preprocessing:**  
+   - Loaded and parsed date column  
+   - Handled missing values and anomalies  
+
+- **Time Series Analysis:**  
+   - Visualized trends and seasonality  
+   - Analyzed autocorrelation using ACF & PACF plots  
+
+- **Modeling Approaches:**  
+   - **ARIMA:** Parameter tuning, model fitting, residual diagnostics, forecasting  
+   - **Exponential Smoothing:** Selected appropriate smoothing model, optimized parameters, and forecasted values  
+
+- **Evaluation Metrics:**  
+   - Mean Absolute Error (MAE)  
+   - Root Mean Square Error (RMSE)  
+   - Mean Absolute Percentage Error (MAPE)  
+
+## 🔍 Analysis and Interpretation  
+- **Model Comparison:** Compared ARIMA and Exponential Smoothing for accuracy and efficiency  
+- **Insights:** Identified trends and optimal forecasting techniques  
+
+## 🚀 Results  
+- **Best Model:** Determined based on lowest error metrics  
+- **Forecasting Accuracy:** Achieved reliable future exchange rate predictions  
+
+
