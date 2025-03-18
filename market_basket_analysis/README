@@ -1,0 +1,31 @@
+# 🛒 Market Basket Analysis using Association Rules
+
+## 📌 Objective  
+Apply Association Rule Mining to uncover relationships between products in customer transactions using the **Apriori Algorithm**.  
+
+## 📊 Dataset  
+- **Dataset:** Online Retail Dataset  
+- **Features:**  
+  - Product IDs  
+  - Quantity  
+  - Price  
+  - Date of Purchase  
+  - Customer ID  
+
+## 🧠 Techniques Used  
+- **Apriori Algorithm:**  
+   - Set thresholds for **support**, **confidence**, and **lift** to identify meaningful rules.  
+
+## 🔍 Analysis and Interpretation  
+- Customers who buy **ground beef**, **olive oil**, or **soup** are significantly more likely to purchase **mineral water** with:  
+   - **Confidence:** 41.66%, 41.90%, and 45.64% respectively  
+   - **Lift Values:** Above 1.7, indicating a strong positive association  
+
+- **Insights for Retailers:**  
+   - Offer **bundle deals** for these combinations  
+   - Optimize store layout by placing associated products together  
+   - Use **targeted marketing** to promote related product sets  
+
+## 🚀 Results  
+- **High Lift Values:** Strong correlation between frequently purchased items  
+- **Actionable Strategies:** Bundle deals, store layout optimization, and targeted promotions  
