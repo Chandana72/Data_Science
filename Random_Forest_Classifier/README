@@ -1,0 +1,19 @@
+# 🌲 Random Forest Classifier
+
+## 📌 Objective  
+Use the **Random Forest** model for classification on the Glass dataset, including **EDA, preprocessing, and ensemble learning techniques**.
+
+## 📊 Dataset  
+- **File:** `glass.xlsx`  
+- **Description:** Features representing different properties of glass samples.
+
+## 🧠 Methods  
+- **EDA:** Identified missing values, outliers, and data inconsistencies.
+- **Data Visualization:** Used histograms, box plots, and pair plots to analyze feature distributions and correlations.
+- **Preprocessing:** Managed missing values, applied encoding for categorical variables, and performed feature scaling.
+- **Random Forest Model:** Trained and evaluated using accuracy, precision, recall, and F1-score.
+- **Bagging & Boosting:** Compared performance of ensemble techniques and discussed their differences.
+
+## 🚀 Results  
+- Random Forest provided strong classification performance.
+- Bagging and Boosting were analyzed for improvements in accuracy.
