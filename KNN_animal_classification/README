@@ -1,0 +1,40 @@
+# 🦁 Animal Classification using K-Nearest Neighbors (KNN)
+
+## 📌 Objective  
+Classify animals into different categories using the **K-Nearest Neighbors (KNN)** algorithm.  
+
+## 📊 Dataset  
+- **Dataset:** Zoo Dataset  
+- **Features:**  
+   - Hair, Feathers, Eggs, Milk  
+   - Airborne, Aquatic, Predator  
+   - Legs, Tail, Domestic  
+   - Animal Type  
+
+## 🧠 Techniques Used  
+- **Data Preprocessing:**  
+   - Handled missing values  
+   - Removed outliers  
+   - Scaled numerical features  
+
+- **KNN Classification:**  
+   - Split data into training and testing sets (80-20)  
+   - Used different values of **K** to tune the model  
+   - Chose an appropriate distance metric (e.g., Euclidean)  
+
+## 🔍 Analysis and Interpretation  
+- **Key Hyperparameters:**  
+   - `n_neighbors` – Number of nearest neighbors  
+   - `metric` – Distance metric (Euclidean, Manhattan, Minkowski)  
+
+- **Evaluation Metrics:**  
+   - Accuracy  
+   - Precision  
+   - Recall  
+   - F1-Score  
+
+## 🚀 Results  
+- **Accuracy:** Achieved high classification accuracy  
+- **Insights:**  
+   - KNN performed well with optimal K value  
+   - Distance metric affected the model’s performance  
