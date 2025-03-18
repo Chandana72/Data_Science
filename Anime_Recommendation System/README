@@ -1,0 +1,41 @@
+# 🎥 Anime Recommendation System
+
+## 📌 Objective  
+Develop a **recommendation system** using **cosine similarity** to suggest similar anime based on key features.  
+
+## 📊 Dataset  
+- **Dataset:** Anime Dataset  
+- **Features:**  
+   - Anime Title  
+   - Broadcast Type  
+   - Genre  
+   - Number of Episodes  
+   - Average User Ratings  
+   - Community Member Count  
+
+## 🧠 Techniques Used  
+- **Data Preprocessing:**  
+   - Handled missing values  
+   - Explored dataset structure and attributes  
+
+- **Feature Extraction:**  
+   - Selected relevant features for similarity calculation  
+   - Encoded categorical variables (e.g., Genre)  
+   - Normalized numerical features  
+
+- **Recommendation System:**  
+   - Implemented **cosine similarity** for anime recommendations  
+   - Recommended similar anime based on similarity scores  
+   - Experimented with different similarity thresholds  
+
+## 🔍 Analysis and Interpretation  
+- **Significant Features:**  
+   - Genres and user ratings heavily influenced recommendations  
+   - Adjusting similarity thresholds impacted recommendation diversity  
+
+## 🚀 Results  
+- **Accuracy:** Effective similarity-based recommendations  
+- **Insights:**  
+   - Popular anime had stronger similarity matches  
+   - Genre-based recommendations provided meaningful suggestions  
+
