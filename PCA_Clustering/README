@@ -1,0 +1,44 @@
+# 📊 Principal Component Analysis (PCA) & Clustering
+
+## 📌 Objective  
+Perform **Principal Component Analysis (PCA)** for dimensionality reduction and apply clustering algorithms to both original and PCA-transformed datasets to evaluate their effectiveness.  
+
+## 📊 Dataset  
+- **Dataset:** `wine.csv`  
+- **Description:** The dataset consists of multiple features representing different characteristics of wine samples.
+
+## 🧠 Techniques Used  
+- **Exploratory Data Analysis (EDA):**  
+   - Loaded the dataset and examined feature distributions  
+   - Used histograms, box plots, and density plots for visualization  
+   - Analyzed correlations between features  
+
+- **Dimensionality Reduction with PCA:**  
+   - Standardized the features to ensure a mean of 0 and standard deviation of 1  
+   - Applied **PCA** to reduce dimensionality  
+   - Determined optimal principal components using scree plots & explained variance  
+   - Transformed the dataset into principal components  
+
+- **Clustering with Original Data:**  
+   - Applied **K-Means Clustering** to the original dataset  
+   - Visualized clustering results  
+   - Evaluated clustering performance using **silhouette score** and **Davies–Bouldin index**  
+
+- **Clustering with PCA Data:**  
+   - Applied **K-Means Clustering** to PCA-transformed data  
+   - Visualized clustering results  
+   - Compared clustering performance with original dataset clustering  
+
+## 🔍 Analysis and Interpretation  
+- **Comparison of Clustering Results:**  
+   - Evaluated clustering differences between original and PCA-transformed data  
+   - Assessed the impact of dimensionality reduction on clustering quality  
+   - Analyzed trade-offs between PCA and direct clustering  
+
+## 🚀 Results  
+- **Dimensionality Reduction:** PCA effectively reduced dimensions while retaining variance  
+- **Clustering Performance:** Analyzed the differences in clustering effectiveness  
+- **Key Insights:**  
+   - PCA helps reduce noise and redundancy in high-dimensional data  
+   - Clustering on PCA-transformed data can sometimes improve or alter group separability  
+
