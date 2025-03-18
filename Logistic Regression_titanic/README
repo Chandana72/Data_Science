@@ -1,0 +1,44 @@
+# 🚢 Titanic Survival Prediction using Logistic Regression
+
+## 📌 Objective  
+Predict the survival of Titanic passengers using **Logistic Regression**.  
+
+## 📊 Dataset  
+- **Dataset:** Titanic Dataset  
+- **Features:**  
+   - Passenger Class  
+   - Sex  
+   - Age  
+   - Siblings/Spouses Aboard  
+   - Parents/Children Aboard  
+   - Fare  
+
+## 🧠 Techniques Used  
+- **Data Preprocessing:**  
+   - Handled missing values using imputation  
+   - Encoded categorical variables (e.g., Gender)  
+   - Scaled numerical features  
+
+- **Logistic Regression:**  
+   - Trained the model using training data  
+   - Evaluated model performance using accuracy, precision, recall, F1-score, and ROC-AUC  
+
+- **Model Deployment:**  
+   - Deployed using **Streamlit**  
+   - Created a user-friendly interface for predictions  
+
+## 🔍 Analysis and Interpretation  
+- **Significant Features:**  
+   - Passenger Class, Sex, and Fare were highly correlated with survival  
+   - ROC Curve showed a balanced trade-off between sensitivity and specificity  
+
+## 🚀 Results  
+- **Accuracy:** Achieved high classification accuracy  
+- **ROC-AUC:** Good separation between positive and negative classes  
+- **Insights:**  
+   - Female passengers had higher survival probability  
+   - Higher passenger class was associated with better survival chances  
+- **Streamlit Display:**  
+   - Results, including survival probability and performance metrics, are displayed directly on the Streamlit app  
+   - ROC Curve and feature importance are also visualized in the app  
+
