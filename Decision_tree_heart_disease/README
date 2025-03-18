@@ -1,0 +1,44 @@
+# ❤️ Heart Disease Prediction using Decision Tree
+
+## 📌 Objective  
+Apply **Decision Tree Classification** to predict heart disease based on patient data.  
+
+## 📊 Dataset  
+- **Dataset:** Heart Disease Dataset  
+- **Features:**  
+   - Age  
+   - Sex  
+   - Blood Pressure  
+   - Cholesterol Level  
+   - ECG Results  
+   - Maximum Heart Rate  
+   - Exercise-Induced Angina  
+
+## 🧠 Techniques Used  
+- **Data Preprocessing:**  
+   - Handled missing values  
+   - Removed outliers  
+   - Encoded categorical variables using **Label Encoding** and **One-Hot Encoding**  
+
+- **Decision Tree Classification:**  
+   - Split data into training and testing sets (80-20)  
+   - Used `Gini` and `Entropy` criteria for node splitting  
+   - Tuned hyperparameters (max depth, min samples split, criterion)  
+   - Visualized tree structure to identify important features  
+
+## 🔍 Analysis and Interpretation  
+- **Key Hyperparameters:**  
+   - `max_depth` – Limits tree size to prevent overfitting  
+   - `min_samples_split` – Minimum samples needed for a node to split  
+   - `criterion` – `Gini` or `Entropy` for calculating splits  
+
+- **Encoding:**  
+   - **Label Encoding** – Assigns a unique value to each category (suitable for ordinal data)  
+   - **One-Hot Encoding** – Creates separate binary columns for each category (useful for nominal data)  
+
+## 🚀 Results  
+- **Accuracy:** Achieved high accuracy on testing data  
+- **Insights:**  
+   - Age, cholesterol level, and exercise-induced angina were the most influential features  
+   - Balanced trade-off between overfitting and generalization through hyperparameter tuning  
+
